@@ -1,0 +1,79 @@
+.whoweareHead {
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/unknown9.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.containerWhoweare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.missionCont {
+    background: white;
+    border: 0.5px solid  rgba(77, 77, 77, 0.603);
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    top: 85vh;
+    width: 65vw;
+    height: 40vh;
+}
+.missionTitle {
+    font-size: 34px;
+    font-family: 'Merriweather', serif;
+    color: #0b4778;
+}
+.missionText {
+    font-size: 20px;
+    line-height: 35px;
+}
+.visionValues {
+    display: flex;
+    justify-content: center;
+    padding-top: 33vh;
+    width: 80vw;
+}
+.visionCont {
+
+    padding-right: 2vw;
+
+}
+.visiontxt {
+    padding-left: 20px;
+    width: 32vw;
+    height: 30vh;
+    border: 2px solid  rgba(224, 223, 223, 0.603);
+}
+h2 {
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    color: #0b4778;
+}
+li {
+    font-size: 17px;
+    line-height: 30px;
+}
+.valueCont {
+}
+.valuetxt {
+    width: 32vw;
+    height: 30vh;
+    padding-left: 20px;
+    border: 2px solid  rgba(224, 223, 223, 0.603);
+}
+.goalsandObj {
+    margin-top: 30px;
+    padding-left: 30px;
+    width: 67vw;
+    height: 105vh;
+    border: 2px solid  rgba(224, 223, 223, 0.603);
+}
+.goalsandObj h2 {
+
+    padding-top: 20px;
+}

@@ -1,0 +1,60 @@
+.mostWanted {
+    padding-top: 250px;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.mostWantedTitle {
+    color: #0b4778;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    font-size: 24px;
+    position: absolute;
+    top: 20vh;
+    left: 19vw;
+}
+.profilePic {
+    width: 20vw;
+}
+.wantedProfile {
+    width: 20vw;
+    border-bottom: 3px solid #b21d38;
+    border-right: 3px solid #00bde31f;
+    border-left: 3px solid #00bde31f;
+    margin-left: 20px;
+}
+.wantedContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+    padding-left: 20px;
+}
+.wantedIn {
+    padding-left: 20px;
+}
+.wantedData {
+    padding-left: 20px;
+}
+.wantedButton {
+    position: static;
+    font-size: 20px;
+    color: #0b4778;
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.wantedButton:hover {
+    background: none;
+    color: rgb(70, 70, 75);
+    transform:translateX(10px);
+    border: none;
+}
